@@ -13,7 +13,35 @@
 		FCCB837E1EA24F84003F958E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCB837C1EA24F84003F958E /* Main.storyboard */; };
 		FCCB83801EA24F84003F958E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCB837F1EA24F84003F958E /* Assets.xcassets */; };
 		FCCB83831EA24F84003F958E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCB83811EA24F84003F958E /* LaunchScreen.storyboard */; };
+		FCCB83921EA250CF003F958E /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB83911EA250CF003F958E /* KeyboardViewController.m */; };
+		FCCB83961EA250CF003F958E /* FarsiKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FCCB838E1EA250CF003F958E /* FarsiKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FCCB839D1EA250EA003F958E /* FarsiKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB839C1EA250EA003F958E /* FarsiKeyboard.m */; };
+		FCCB839F1EA250F8003F958E /* FarsiKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCCB839E1EA250F8003F958E /* FarsiKeyboard.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCCB83941EA250CF003F958E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCB83681EA24F84003F958E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCB838D1EA250CF003F958E;
+			remoteInfo = FarsiKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCCB839A1EA250CF003F958E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FCCB83961EA250CF003F958E /* FarsiKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FCCB83701EA24F84003F958E /* MMFarsiKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMFarsiKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +54,24 @@
 		FCCB837F1EA24F84003F958E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCCB83821EA24F84003F958E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCCB83841EA24F84003F958E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCB838E1EA250CF003F958E /* FarsiKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FarsiKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCB83901EA250CF003F958E /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		FCCB83911EA250CF003F958E /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		FCCB83931EA250CF003F958E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCB839B1EA250EA003F958E /* FarsiKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FarsiKeyboard.h; sourceTree = "<group>"; };
+		FCCB839C1EA250EA003F958E /* FarsiKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FarsiKeyboard.m; sourceTree = "<group>"; };
+		FCCB839E1EA250F8003F958E /* FarsiKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FarsiKeyboard.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FCCB836D1EA24F84003F958E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCB838B1EA250CF003F958E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				FCCB83721EA24F84003F958E /* MMFarsiKeyboard */,
+				FCCB838F1EA250CF003F958E /* FarsiKeyboard */,
 				FCCB83711EA24F84003F958E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				FCCB83701EA24F84003F958E /* MMFarsiKeyboard.app */,
+				FCCB838E1EA250CF003F958E /* FarsiKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +123,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FCCB838F1EA250CF003F958E /* FarsiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB83901EA250CF003F958E /* KeyboardViewController.h */,
+				FCCB83911EA250CF003F958E /* KeyboardViewController.m */,
+				FCCB83931EA250CF003F958E /* Info.plist */,
+				FCCB839B1EA250EA003F958E /* FarsiKeyboard.h */,
+				FCCB839C1EA250EA003F958E /* FarsiKeyboard.m */,
+				FCCB839E1EA250F8003F958E /* FarsiKeyboard.xib */,
+			);
+			path = FarsiKeyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,15 +146,34 @@
 				FCCB836C1EA24F84003F958E /* Sources */,
 				FCCB836D1EA24F84003F958E /* Frameworks */,
 				FCCB836E1EA24F84003F958E /* Resources */,
+				FCCB839A1EA250CF003F958E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FCCB83951EA250CF003F958E /* PBXTargetDependency */,
 			);
 			name = MMFarsiKeyboard;
 			productName = MMFarsiKeyboard;
 			productReference = FCCB83701EA24F84003F958E /* MMFarsiKeyboard.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FCCB838D1EA250CF003F958E /* FarsiKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCB83971EA250CF003F958E /* Build configuration list for PBXNativeTarget "FarsiKeyboard" */;
+			buildPhases = (
+				FCCB838A1EA250CF003F958E /* Sources */,
+				FCCB838B1EA250CF003F958E /* Frameworks */,
+				FCCB838C1EA250CF003F958E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarsiKeyboard;
+			productName = FarsiKeyboard;
+			productReference = FCCB838E1EA250CF003F958E /* FarsiKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -110,6 +186,12 @@
 				TargetAttributes = {
 					FCCB836F1EA24F84003F958E = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = SEK2B2WT73;
+						ProvisioningStyle = Automatic;
+					};
+					FCCB838D1EA250CF003F958E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = SEK2B2WT73;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,6 +210,7 @@
 			projectRoot = "";
 			targets = (
 				FCCB836F1EA24F84003F958E /* MMFarsiKeyboard */,
+				FCCB838D1EA250CF003F958E /* FarsiKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +223,14 @@
 				FCCB83831EA24F84003F958E /* LaunchScreen.storyboard in Resources */,
 				FCCB83801EA24F84003F958E /* Assets.xcassets in Resources */,
 				FCCB837E1EA24F84003F958E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCB838C1EA250CF003F958E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCB839F1EA250F8003F958E /* FarsiKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +247,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCCB838A1EA250CF003F958E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCB839D1EA250EA003F958E /* FarsiKeyboard.m in Sources */,
+				FCCB83921EA250CF003F958E /* KeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCCB83951EA250CF003F958E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCB838D1EA250CF003F958E /* FarsiKeyboard */;
+			targetProxy = FCCB83941EA250CF003F958E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FCCB837C1EA24F84003F958E /* Main.storyboard */ = {
@@ -272,9 +380,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SEK2B2WT73;
 				INFOPLIST_FILE = MMFarsiKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = moosamir.MMFarsiKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = moosamir.FarsiKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -283,10 +392,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SEK2B2WT73;
 				INFOPLIST_FILE = MMFarsiKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = moosamir.MMFarsiKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = moosamir.FarsiKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCCB83981EA250CF003F958E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SEK2B2WT73;
+				INFOPLIST_FILE = FarsiKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moosamir.FarsiKeyboard.FarsiKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FCCB83991EA250CF003F958E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SEK2B2WT73;
+				INFOPLIST_FILE = FarsiKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moosamir.FarsiKeyboard.FarsiKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -307,6 +441,14 @@
 			buildConfigurations = (
 				FCCB83881EA24F84003F958E /* Debug */,
 				FCCB83891EA24F84003F958E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCCB83971EA250CF003F958E /* Build configuration list for PBXNativeTarget "FarsiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCB83981EA250CF003F958E /* Debug */,
+				FCCB83991EA250CF003F958E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
