@@ -8,6 +8,10 @@
 
 #import "FarsiKeyboard.h"
 
+@interface FarsiKeyboard()
+
+@end
+
 @implementation FarsiKeyboard
 
 /*

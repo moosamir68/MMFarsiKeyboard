@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC5098451EA3605E0035CA8A /* web_Yekan.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC5098441EA3605E0035CA8A /* web_Yekan.otf */; };
+		FC5098461EA360720035CA8A /* web_Yekan.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC5098441EA3605E0035CA8A /* web_Yekan.otf */; };
+		FC50984A1EA364D50035CA8A /* BNazanin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC5098491EA364D50035CA8A /* BNazanin.ttf */; };
+		FC50984B1EA364E60035CA8A /* BNazanin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC5098491EA364D50035CA8A /* BNazanin.ttf */; };
 		FCCB83751EA24F84003F958E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB83741EA24F84003F958E /* main.m */; };
 		FCCB83781EA24F84003F958E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB83771EA24F84003F958E /* AppDelegate.m */; };
 		FCCB837B1EA24F84003F958E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB837A1EA24F84003F958E /* ViewController.m */; };
@@ -44,6 +48,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FC5098441EA3605E0035CA8A /* web_Yekan.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = web_Yekan.otf; path = FarsiKeyboard/web_Yekan.otf; sourceTree = SOURCE_ROOT; };
+		FC5098491EA364D50035CA8A /* BNazanin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BNazanin.ttf; path = FarsiKeyboard/BNazanin.ttf; sourceTree = SOURCE_ROOT; };
 		FCCB83701EA24F84003F958E /* MMFarsiKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMFarsiKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCB83741EA24F84003F958E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCCB83761EA24F84003F958E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +124,8 @@
 		FCCB83731EA24F84003F958E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC5098491EA364D50035CA8A /* BNazanin.ttf */,
+				FC5098441EA3605E0035CA8A /* web_Yekan.otf */,
 				FCCB83741EA24F84003F958E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -186,12 +194,12 @@
 				TargetAttributes = {
 					FCCB836F1EA24F84003F958E = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = SEK2B2WT73;
+						DevelopmentTeam = 6Y45SG7J3F;
 						ProvisioningStyle = Automatic;
 					};
 					FCCB838D1EA250CF003F958E = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = SEK2B2WT73;
+						DevelopmentTeam = 6Y45SG7J3F;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -221,8 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCCB83831EA24F84003F958E /* LaunchScreen.storyboard in Resources */,
+				FC5098451EA3605E0035CA8A /* web_Yekan.otf in Resources */,
 				FCCB83801EA24F84003F958E /* Assets.xcassets in Resources */,
 				FCCB837E1EA24F84003F958E /* Main.storyboard in Resources */,
+				FC50984A1EA364D50035CA8A /* BNazanin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC50984B1EA364E60035CA8A /* BNazanin.ttf in Resources */,
+				FC5098461EA360720035CA8A /* web_Yekan.otf in Resources */,
 				FCCB839F1EA250F8003F958E /* FarsiKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,7 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SEK2B2WT73;
+				DEVELOPMENT_TEAM = 6Y45SG7J3F;
 				INFOPLIST_FILE = MMFarsiKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = moosamir.FarsiKeyboard;
@@ -392,7 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SEK2B2WT73;
+				DEVELOPMENT_TEAM = 6Y45SG7J3F;
 				INFOPLIST_FILE = MMFarsiKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = moosamir.FarsiKeyboard;
@@ -403,7 +415,7 @@
 		FCCB83981EA250CF003F958E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = SEK2B2WT73;
+				DEVELOPMENT_TEAM = 6Y45SG7J3F;
 				INFOPLIST_FILE = FarsiKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = moosamir.FarsiKeyboard.FarsiKeyboard;
@@ -415,7 +427,7 @@
 		FCCB83991EA250CF003F958E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = SEK2B2WT73;
+				DEVELOPMENT_TEAM = 6Y45SG7J3F;
 				INFOPLIST_FILE = FarsiKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = moosamir.FarsiKeyboard.FarsiKeyboard;
@@ -443,6 +455,7 @@
 				FCCB83891EA24F84003F958E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCCB83971EA250CF003F958E /* Build configuration list for PBXNativeTarget "FarsiKeyboard" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +464,7 @@
 				FCCB83991EA250CF003F958E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  MMFarsiKeyboard
+//  MMCallCustom
 //
-//  Created by Moosa Mir on 4/15/17.
+//  Created by Moosa Mir on 4/16/17.
 //  Copyright © 2017 Moosa Mir. All rights reserved.
 //
 
@@ -17,16 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    for (NSString* family in [UIFont familyNames])
-    {
-        NSLog(@"%@", family);
-        
-        for (NSString* name in [UIFont fontNamesForFamilyName: family])
-        {
-            NSLog(@"  %@", name);
-        }
-    }
 }
 
 
